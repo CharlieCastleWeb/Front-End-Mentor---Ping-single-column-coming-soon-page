@@ -11,11 +11,13 @@ notifyButton.addEventListener("click", validate);
 function showWarning() {
     warningMessage[0].classList.add("show");
     form.classList.add("form-warning");
+    emailInput.classList.add("input-warning");
 }
 
 function removeWarning() {
     warningMessage[0].classList.remove("show");
     form.classList.remove("form-warning");
+    emailInput.classList.remove("input-warning");
 }
 
 function validate(e) {

@@ -51,6 +51,7 @@ h2 {
 .warning {
     color: var(--light-red);
     font-size: 0.7rem;
+    font-style: italic;
 }
 
 button {
@@ -123,11 +124,15 @@ input {
     margin-top: 1em;
     margin-bottom: 1em;
     display: none;
-    transition: margin ease-in-out 1s;
+    /* transition: margin ease-in-out 1s; */
 }
 
 .form-warning {
     margin-bottom: 2.15em;
+}
+
+.input-warning {
+    border-color: var(--light-red);
 }
 
 .show {
@@ -213,6 +218,17 @@ footer {
         flex-direction: row;
         width: 35%;
         margin: 1.5em auto 0 auto;
+        position: relative;
+    }
+
+    .form-warning {
+        margin-bottom: 0;
+    }
+
+    .warning {
+        position: absolute;
+        left: 7%;
+        top: 100%;
     }
 
     button {
