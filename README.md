@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-WnodQhFlYE](https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-WnodQhFlYE)
 - Live Site URL: [https://charliecastleweb.github.io/Front-End-Mentor---Ping-single-column-coming-soon-page/](https://charliecastleweb.github.io/Front-End-Mentor---Ping-single-column-coming-soon-page/)
 
 ## My process
