@@ -105,7 +105,6 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 4em;
-    
 }
 
 input, button {
@@ -124,6 +123,7 @@ input {
     margin-top: 1em;
     margin-bottom: 1em;
     display: none;
+    transition: margin ease-in-out 1s;
 }
 
 .form-warning {
@@ -142,6 +142,7 @@ button {
     border-radius: 25px;
     box-shadow: 0px 10px 15px -5px rgba(79, 125, 243, 0.8);
     cursor: pointer;
+    
 }
 
 button:hover,
