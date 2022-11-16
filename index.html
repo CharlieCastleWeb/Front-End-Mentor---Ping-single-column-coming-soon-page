@@ -5,29 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
   
+  <script src="https://kit.fontawesome.com/adc6e39057.js" crossorigin="anonymous"></script>
+
   <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  We are launching soon!
+  <main>
 
-  Subscribe and get notified
+    <img src="./images/logo.svg" alt="Company Logo" class="logo">
 
-  Notify Me
+    <h1>We are launching <b>soon!</b></h1>
 
-  &copy; Copyright Ping. All rights reserved.
+    <h2>Subscribe and get notified</h2>
+
+    <form action="">
+      <input 
+        type="text"
+        placeholder="Your email address..."
+      >
+      <button type="submit">Notify Me</button>
+    </form>
+
+    <img 
+      src="./images/illustration-dashboard.png" 
+      alt="Dashboard illustration"
+      class="dashboard-illustration"
+    >
+
+  </main>
+
+  
 
   <footer>
+
+    <section class="social-buttons">
+      <a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+    </section>
+
+    <p class="legal-rights">&copy; Copyright Ping. All rights reserved.</p>
+
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Carlos Castillo</a>.
     </p>
   </footer>
 </body>
