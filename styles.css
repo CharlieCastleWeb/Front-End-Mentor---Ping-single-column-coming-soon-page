@@ -41,6 +41,7 @@ b {
 
 h2 {
     font-size: 0.9rem;
+    color: var(--gray);
 }
 
 ::placeholder {
@@ -96,6 +97,8 @@ h2 {
 
 form {
     margin-top: 2em;
+    display: flex;
+    flex-direction: column;
 }
 
 input, button {
@@ -159,10 +162,42 @@ footer {
     margin-top: 2em;
 }
 
-
-
 /* MEDIA QUERIES*/
 
+@media (min-width: 800px) {
+    body {}
+
+    .logo {
+        width: 5%;
+        margin-top: 2em;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 0.5em;
+    }
+
+    form {
+        flex-direction: row;
+        width: 35%;
+        margin: 1.5em auto 0 auto;
+    }
+
+    button {
+        margin-top: 0;
+        width: 30%;
+        margin-left: 1.5em;
+    }
+
+    .dashboard-illustration {
+        width: 35%;
+        margin-top: 3em;
+    }
+
+    .legal-rights {
+        margin-top: 1em;
+    }
+}
 
 
 
