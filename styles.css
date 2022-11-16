@@ -48,6 +48,11 @@ h2 {
     color: var(--pale-blue);
 }
 
+.warning {
+    color: var(--light-red);
+    font-size: 0.7rem;
+}
+
 button {
     color: white;
 }
@@ -99,6 +104,8 @@ form {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
+    margin-bottom: 4em;
+    
 }
 
 input, button {
@@ -113,6 +120,20 @@ input {
     border: 1px solid var(--blue);
 }
 
+.warning {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: none;
+}
+
+.form-warning {
+    margin-bottom: 2.15em;
+}
+
+.show {
+    display: block;
+}
+
 button {
     margin-top: 1em;
     border: none;
@@ -120,11 +141,17 @@ button {
     padding: 1em 0;
     border-radius: 25px;
     box-shadow: 0px 10px 15px -5px rgba(79, 125, 243, 0.8);
+    cursor: pointer;
+}
+
+button:hover,
+button:active,
+button:focus {
+    background-color: var(--pale-blue);
 }
 
 .dashboard-illustration {
     width: 90%;
-    margin-top: 4em;
 }
 
 footer {
@@ -138,7 +165,7 @@ footer {
     justify-content: center;
 }
 
-.social-buttons a{
+.social-buttons a {
     color: var(--blue);
     border: 1px solid var(--pale-blue);
     display: flex;
@@ -148,6 +175,11 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 100%;
+}
+
+.social-buttons a:hover {
+    color: white;
+    background-color: var(--blue);
 }
 
 .social-buttons a:nth-child(2) {
@@ -165,7 +197,6 @@ footer {
 /* MEDIA QUERIES*/
 
 @media (min-width: 800px) {
-    body {}
 
     .logo {
         width: 5%;
