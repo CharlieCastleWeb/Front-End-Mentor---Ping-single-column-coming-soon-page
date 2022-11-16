@@ -158,7 +158,6 @@ button {
     border-radius: 25px;
     box-shadow: 0px 10px 15px -5px rgba(79, 125, 243, 0.8);
     cursor: pointer;
-    
 }
 
 button:hover,
@@ -227,30 +226,40 @@ footer {
 
     form {
         flex-direction: row;
-        width: 35%;
-        margin: 1.5em auto 0 auto;
-        position: relative;
+        justify-content: center;
+        margin-bottom: 4em;
+    }
+
+    .input-wrapper,
+    button {
+        margin: 0;
+    }
+
+    .input-wrapper {
+        padding: 0;
+        width: 25%;
+    }
+
+    input {
+        margin: 0;
+        width: 97%;
     }
 
     .form-warning {
-        margin-bottom: 0;
+        margin-bottom: 2.7em;
     }
 
     .warning {
-        position: absolute;
-        left: 7%;
-        top: 100%;
+        left: 36%;
     }
 
     button {
-        margin-top: 0;
-        width: 30%;
-        margin-left: 1.5em;
+        width: 10%;
+        height: 100%;
     }
 
     .dashboard-illustration {
         width: 35%;
-        margin-top: 3em;
     }
 
     .legal-rights {
